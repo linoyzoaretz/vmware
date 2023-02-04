@@ -1,0 +1,2 @@
+Connect-VIServer -Server <IP/FQDN>
+Get-VM | Get-NetworkAdapter | Where {$_.MacAddress -eq “00:50:56:12:34:56”}
