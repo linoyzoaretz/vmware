@@ -1,0 +1,1 @@
+Get-VM -Name VM -Location Host1 | Move-VM –Destination Host2
