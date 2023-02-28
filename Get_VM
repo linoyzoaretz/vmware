@@ -1,0 +1,5 @@
+Get-VM
+Get-VM VM | Start-VM
+Get-VMGuest VM | fc
+Stop-VMGuest VM
+Stop-VM VM
